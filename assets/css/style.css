@@ -113,20 +113,6 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.form-input {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.hero-form label {
-    margin: 0 5px;
-}
-
 .hero-cta{
     width: 35%;
     text-align: right;
@@ -142,8 +128,18 @@ section {
     color: #fce138;
 }
 
-.intro {
-    text-align: center;
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
 }
 
 .intro p {
@@ -153,20 +149,21 @@ section {
     font-size: 20px;
     /* add this alongside your other declarations */
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
   
 .primary-border {
@@ -202,7 +199,7 @@ section {
 }
 
 .trainers {
-    text-align: center;
+
 }
 
 .trainer {
@@ -259,7 +256,6 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -297,3 +293,7 @@ section {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
+
+.flex-row {
+    display: flex;
+}
