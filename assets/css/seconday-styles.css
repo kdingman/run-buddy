@@ -6,13 +6,13 @@
 }
 
 .page-title {
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 .hero h2 {
   display: inline-block;
   border-bottom: 4px solid;
-  color: #fce138;
+  color: var(--primary-color);
   padding: 0 80px 15px 80px;
   font-weight: normal;
   font-size: 42px;
@@ -22,7 +22,7 @@
 .secondary-content {
   width: 80%;
   margin: auto;
-  color: #024e76;
+  color: var(--secondary-color);
 }
 
 .secondary-content h3 {
@@ -41,6 +41,6 @@
 }
 
 .hero-secondary li {
-  color: #39a6b2;
+  color: var(--tertiary-color);
   margin: 10px 0 10px 0;
 }
